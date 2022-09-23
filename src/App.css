@@ -1,0 +1,48 @@
+.App {
+  text-align: left;
+}
+
+.header {
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.header--text {
+  color: white;
+}
+
+.header--logo {
+  height: 50px;
+  margin-top: 5px;
+  margin-right: 3px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.card--image {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.card--location {
+  display: flex;
+}
+
+.card--country {
+  margin-right: 10px;
+}
+
+.card--gMaps {
+  color: gray;
+}
+
+.card--location, .card--title, .card--startEndDate, .card--description {
+  margin-left: 50px;
+  max-width: 50vw;
+}
