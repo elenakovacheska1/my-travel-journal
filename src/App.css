@@ -14,20 +14,21 @@
 }
 
 .header--logo {
-  height: 50px;
-  margin-top: 5px;
-  margin-right: 3px;
+  height: 3.125em;
+  margin-top: 0.31em;
+  margin-right: 0.187em;
 }
 
 .card {
   display: flex;
   justify-content: center;
-  margin: 30px;
+  margin: 1.875em;
 }
 
 .card--image {
-  width: 200px;
+  width: 12.5em;
   border-radius: 10px;
+  object-fit: cover;
 }
 
 .card--location {
@@ -35,7 +36,7 @@
 }
 
 .card--country {
-  margin-right: 10px;
+  margin-right: 0.625em;
 }
 
 .card--gMaps {
@@ -43,6 +44,13 @@
 }
 
 .card--location, .card--title, .card--startEndDate, .card--description {
-  margin-left: 50px;
+  margin-left: 4rem;
   max-width: 50vw;
+}
+
+@media (max-width: 600px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+  }
 }
