@@ -44,7 +44,7 @@
 }
 
 .card--location, .card--title, .card--startEndDate, .card--description, .card--image {
-  margin: 0 auto;
+  margin: 1rem auto;
   max-width: 50vw;
 }
 
