@@ -43,7 +43,7 @@
   color: gray;
 }
 
-.card--location, .card--title, .card--startEndDate, .card--description {
+.card--location, .card--title, .card--startEndDate, .card--description, .card--image {
   margin-left: 4rem;
   max-width: 50vw;
 }
