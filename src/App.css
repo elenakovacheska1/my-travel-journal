@@ -23,6 +23,7 @@
   display: flex;
   justify-content: center;
   margin: 1.875em;
+  
 }
 
 .card--image {
@@ -52,5 +53,32 @@
   .card {
     flex-direction: column;
     align-items: center;
+  }
+
+  .card--image {
+    width: 30em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 600px) {
+  .card {
+    width: 70vw;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header {
+    width: 100vw;
+  }
+
+  .card--image {
+    margin: 2em;
   }
 }
